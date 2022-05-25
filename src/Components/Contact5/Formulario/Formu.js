@@ -117,6 +117,7 @@ function Formu() {
                             onChange={handleChange}
                             // required
                             pattern="[0-9]" 
+                            // minLength={6}
                             />
                     </div>
                     <p className='errorMessage'>{formErrors.phone}</p>
