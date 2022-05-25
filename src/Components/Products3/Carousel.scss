@@ -1,0 +1,208 @@
+@import "../../Stylesheets/SCSS/Partials/colors";
+@import "../../Stylesheets/SCSS/Partials/fonts";
+
+
+.Carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+// .carousel-control-prev-icon{
+//     color: red;
+// }
+
+.imageCarousel{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.textCarousel{
+    background-color: $secondary-color;
+    color: $white-color;
+    width: 450px;
+    height: 300px;
+    margin: 252px 174px 0px 690px;
+    position: absolute;
+}
+
+.h4Carousel{
+    font-size: 16px;
+    font-family: $font-nav;
+    letter-spacing: 0.22px;
+    margin: 68px 0px 0px 50px;
+}
+
+.h3Carousel{
+    font-size: 39px;
+    font-family: $font-titulo;
+    letter-spacing: 0.55px;
+    margin: 0px 0px 0px 50px;
+}
+
+.parraCarousel{
+    font-size: 16px;
+    font-family: $font-nav;
+    letter-spacing: 0.22px;
+    margin: 20px 0px 0px 50px;
+}
+
+.carousel-control-next .carousel-control-next-icon .visually-hidden{
+    color: rebeccapurple;
+}
+
+
+
+
+//Media
+
+@media only screen and (max-width : 1020px) {
+    .imageCarousel{
+        width: 800px;
+        align-items: center;
+        margin: auto
+    }
+    .textCarousel{
+        width: 350px;
+        height: 200px;
+        margin: 257px 240px 0px 690px;
+    }
+    .h4Carousel{
+        margin-top: 30px;
+    }
+    .h3Carousel{
+        font-size: 30px;
+    }
+    .parraCarousel{
+        font-size: 14px;
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (max-width : 900px) {
+    .imageCarousel{
+        width: 600px;
+        padding-bottom: 150px;
+        // margin-left: auto;
+    }
+    .textCarousel{
+        width: 600px;
+        height: 150px;
+        margin: 343px 690px 0px 690px;
+    }
+    .h4Carousel{
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    .h3Carousel{
+        font-size: 30px;
+        margin-left: 70px;
+    }
+    .parraCarousel{
+        font-size: 14px;
+        margin-right: 60px;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width : 720px) {
+    .imageCarousel{
+        display: none;
+    }
+    .textCarousel{
+        width: 70%;
+        height: 40%;
+        top: 1350px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .h4Carousel{
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    .h3Carousel{
+        font-size: 38px;
+        margin-left: 70px;
+    }
+    .parraCarousel{
+        font-size: 18px;
+        margin-right: 60px;
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (max-width : 580px) {
+    .parraCarousel{
+        font-size: 16px;
+        margin-right: 40px;
+        margin-left: 70px;
+    }
+    .h3Carousel{
+        font-size: 35px;
+        margin-left: 70px;
+    }
+    .h4Carousel{
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (max-width : 460px) {
+    .parraCarousel{
+        font-size: 13px;
+        margin-right: 40px;
+        margin-left: 70px;
+    }
+    .h3Carousel{
+        font-size: 30px;
+        margin-left: 70px;
+    }
+    .h4Carousel{
+        margin-top: 2px;
+        margin-left: 70px;
+        font-size: 14px;
+    }
+    .textCarousel{
+        top: 190%;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width : 385px){
+    .textCarousel{
+        top: 180%;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width : 355px) {
+    .parraCarousel{
+        font-size: 12px;
+        margin-right: 25px;
+        margin-left: 30px;
+    }
+    .h3Carousel{
+        font-size: 24px;
+        margin-left: 30px;
+    }
+    .h4Carousel{
+        margin-top: 0px;
+        margin-left: 30px;
+        font-size: 13px;
+    }
+    .textCarousel{
+        top:165%
+    }
+}
+
+@media only screen and (max-width : 300px) {
+    .textCarousel{
+        top: 175%;
+    }
+}
+
+

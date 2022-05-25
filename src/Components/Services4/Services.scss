@@ -1,0 +1,36 @@
+@import "../../Stylesheets/SCSS/Partials/colors";
+@import "../../Stylesheets/SCSS/Partials/fonts";
+
+#Services{
+    height: 100vh;
+    width: 100%;
+    // position: absolute;
+    display: flex;
+
+}
+
+.serviceImage{
+    height: 100vh; 
+    // width: 55%;
+    // left: 680px;
+    position: relative;
+    z-index: -1;
+    // left: 749px;
+    // width: 770px;
+    width: 55%;
+
+    left: 45%;
+
+}
+
+
+
+//Media
+
+@media only screen and (max-width : 1020px) {
+    .serviceImage{
+        display: none;
+    }
+    }
+
+

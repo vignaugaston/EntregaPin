@@ -1,0 +1,96 @@
+@import "../../Stylesheets/SCSS/Partials/colors";
+@import "../../Stylesheets/SCSS/Partials/fonts";
+
+$accordion-icon-color: $secondary-color;
+$accordion-icon-active-color: $secondary-color;
+@import "../../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.divAccordion{
+    width: 50vw;
+    margin: 15vh 0 0 10vw;
+    position: absolute;
+}
+
+.servicesAccordion{
+    width: 50vw;
+    left: 50px;
+}
+
+.accordion-button{
+    color: $fourth-color;
+    font-size: 16px;
+    font-family: $font-parrafo;
+    letter-spacing: 0.22px;
+    font-weight: 500;
+    background-color: $acordion-color;
+}
+
+.accordion-body{
+    color: $fourth-color;
+    font-size: 16px;
+    font-family: $font-parrafo;
+    letter-spacing: 0.22px;
+    margin: 40px 35px;
+}
+
+.accordion-title{
+    margin: 10px 35px;
+}
+
+
+//Media
+
+@media only screen and (max-width : 1020px) {
+    .divAccordion{
+        width: 80%;
+    }
+    .servicesAccordion{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 900px) {
+
+}
+
+@media only screen and (max-width : 720px) {
+
+}
+
+@media only screen and (max-width : 580px) {
+    .accordion-body{
+        margin: 30px 28px;
+    }
+    .accordion-title{
+        margin: 10px 28px;
+    }
+}
+
+@media only screen and (max-width : 460px) {
+    .accordion-body{
+        margin: 10px 10px;
+        font-size: 14px;
+
+    }
+    .divAccordion{
+        margin-top: 14vh;
+    }
+    .accordion-title{
+        margin: 10px 10px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width : 365px) {
+    .divAccordion{
+        margin-top: 10vh;
+    }
+    .accordion-title{
+        margin: 5px 5px;
+        font-size: 14px;
+    }
+    .accordion-body{
+        margin: 5px 5px;
+        font-size: 13px;
+    }
+}

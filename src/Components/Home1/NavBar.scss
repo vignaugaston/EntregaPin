@@ -1,0 +1,178 @@
+@import "../../Stylesheets/SCSS/Partials/colors";
+@import "../../Stylesheets/SCSS/Partials/fonts";
+
+.headNav{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+header{
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+}
+
+.listNav{
+    position: relative;
+    background-color: transparent;
+    margin: 25px 90px 0 0;
+    display: flex;
+    justify-content: end;
+    
+    
+    // //NUEVO
+    // margin: 25px 70px 0 0;
+    // position: absolute;
+}
+
+.liNav{
+    text-decoration: none;
+    color: $white-color;
+    margin: 35px;
+   scroll-behavior: smooth;
+
+   //NUEVO
+//    position: absolute;
+//    color: red;
+
+}
+
+.liNav:hover{
+    color: $fourth-color;
+}
+
+.imageLogo{
+    top: 20px;
+    position: absolute;
+    left: 100px;
+    // width: 130px;
+    // height: 30px;
+}
+
+hr{
+    color: $hr-color;
+    border: 1px solid;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 60px;
+}
+
+.hamburguerNav{
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: $white-color;
+    display: none;
+}
+
+.hamburguerNav:hover{
+    color: $fourth-color;
+}
+
+// Navigation and MobileNavigation
+
+.mobileNavigation{
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width : 1020px) {
+    .listNav{
+        margin: 25px 25px 0 0;
+    }
+    .liNav{
+        margin: 25px;
+    }
+    }
+
+@media only screen and (max-width : 900px){
+    
+    .imageLogo{
+        position: absolute;
+        left: 100px;
+        margin-top: 0px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .mobileNavigation{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .hamburguerMenu{
+        position: absolute;
+        right: 6%;
+        cursor: pointer;
+    }
+    
+    .closeMenu{
+       position: absolute;
+       right: 6%;
+       cursor: pointer; 
+    }
+
+    .divNav{
+        background-color: rgba(255, 255, 255, 0.342);
+        top:76px;
+        position: absolute;
+        left: 0;
+        width: 100vw;
+    }
+
+    .liNav{
+        display: flex;
+        flex-direction: column;
+        top: 160px;
+        margin-right: 35px;
+        align-items: flex-end;
+    }
+
+    .liNav:hover{
+        background-color:  rgba(255, 255, 255, 0.253);
+        background-size: 100%;
+        border-radius: 2px;
+    }
+
+    }
+
+@media only screen and (max-width : 720px){
+
+    }
+
+@media only screen and (max-width : 580px){
+    .imageLogo{
+        position: absolute;
+        left: 70px;
+        margin-top: 0px;
+    }
+    }
+
+@media only screen and (max-width : 460px){
+    .imageLogo{
+        position: absolute;
+        left: 45px;
+        margin-top: 0px;
+        // width: 140px;
+    }
+    }
+
+@media only screen and (max-width : 365px){
+    .imageLogo{
+        position: absolute;
+        left: 30px;
+        margin-top: 0px;
+        width: 120px;
+    }
+    }

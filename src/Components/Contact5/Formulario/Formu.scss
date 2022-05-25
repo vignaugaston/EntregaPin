@@ -1,0 +1,208 @@
+@import "../../../Stylesheets/SCSS/Partials/colors";
+@import "../../../Stylesheets/SCSS/Partials/fonts";
+
+.firstForm{
+    margin: 240px 0 0 100px;
+    color: $fourth-color;
+    font-family: $font-parrafo;
+    font-size: 16px;
+    letter-spacing: 0.22px;
+}
+
+.imputClass{
+    margin-top: 4vh;
+    border: none;
+    border-bottom: 2px solid $secGrey-color;
+    width: 35vw;
+    background-color: $grey-color;
+    color: $fourth-color;
+    font-family: $font-parrafo;
+    font-size: 16px;
+    letter-spacing: 0.22px;
+    resize: none;
+    padding: 0;
+}
+
+.secondButton{
+    background-color: $secondary-color;
+    color: $white-color;
+    border-radius: 25px;
+    width: 144px;
+    height: 48px;
+    font-size: 16px;
+    font-family: $font-titulo;
+    border: none;
+    // top: 480px;
+    // left: 100px;
+    width: 144px;
+    height: 48px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.secondButton:hover{
+    background-color: $hr-color;
+}
+
+.alertMessage{
+    background-color: $alertMessage;
+    color: $white-color;
+    border-radius: 25px;
+    width: 20%;
+    height: 48px;
+    font-size: 16px;
+    font-family: $font-titulo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.errorMessage{
+    color: rgba(255, 0, 0, 0.863);
+    font-family: $font-parrafo;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+pre{
+    display: none;
+}
+
+//Media
+
+@media only screen and (max-width : 1020px) {
+    .imputClass{
+        margin-left: 210px;
+    }
+    .secondButton{
+        margin-left: 210px;
+
+    }
+    .alertMessage{
+        width: 20%;
+        margin-left: 55%;
+    }
+    
+    .errorMessage{
+        font-size: 14px;
+        margin-top: 0;
+        margin-left: 210px;
+    }
+}
+
+@media only screen and (max-width : 900px) {
+    .imputClass{
+        margin-left: 100px;
+    }
+    .secondButton{
+        margin-left: 100px
+    }
+    .alertMessage{
+        width: 25%;
+        margin-left: 380px;
+    }
+    .errorMessage{
+        font-size: 14px;
+        margin-top: 0;
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width : 720px) {
+    .alertMessage{
+        width: 30%;
+        font-size: 15px;
+        margin-left: 370px;
+    }
+}
+
+@media only screen and (max-width : 580px) {
+    .imputClass{
+        margin-left: -50px;
+        width: 80%;
+    }
+    .secondButton{
+        margin-left: -50px;
+    }
+    .alertMessage{
+        width: 35%;
+        font-size: 15px;
+        margin-left: 220px;
+    }
+    .errorMessage{
+        font-size: 14px;
+        margin-top: 0;
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width : 460px) {
+    .secondButton{
+        width: 110px;
+    }
+    .alertMessage{
+        width: 45%;
+        font-size: 14px;
+        margin-left: 170px;
+    }
+    .errorMessage{
+        font-size: 13px;
+        margin-top: -2px;
+        margin-bottom: -5px;
+        margin-left: -50px;
+    }
+   
+    
+}
+
+@media only screen and (max-width : 365px) {
+    .secondButton{
+        width: 90px;
+        font-size: 14px;
+        height: 42px;
+        margin-top: 10px;
+    }
+    .imputClass{
+        font-size: 14px;
+        margin-top: 3vh;
+
+    }
+    .alertMessage{
+        width: 45%;
+        font-size: 13px;
+        margin-left: 150px;
+        margin-top: 10px;
+
+    }
+}
+
+@media only screen and (max-width : 300px) {
+    .secondButton{
+        width: 90px;
+        font-size: 14px;
+        height: 42px;
+        margin-left: -70px;
+
+    }
+    .imputClass{
+        margin-left: -70px;
+        width: 80%;
+        font-size: 14px;
+    }
+    .alertMessage{
+        width: 42%;
+        height: 42px;
+        font-size: 11px;
+        margin-left: 130px;
+    }
+    .errorMessage{
+        font-size: 13px;
+        margin-top: -3px;
+        margin-left: -70px;
+    }
+}

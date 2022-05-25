@@ -1,0 +1,163 @@
+@import "../../Stylesheets/SCSS/Partials/colors";
+@import "../../Stylesheets/SCSS/Partials/fonts";
+
+#Contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: $grey-color;
+}
+
+.blackTitle{
+    color: $tertiary-color;
+    margin: 120px 0 0 100px;
+    width: 305px;
+    font-size: 39px;
+    font-family: $font-titulo;
+    letter-spacing: 0.55px;
+    position: absolute;
+}
+
+.orangeTitle{
+    color: $secondary-color;
+    margin: 170px 0 0 100px;
+    width: 305px;
+    font-size: 39px;
+    font-family: $font-titulo;
+    letter-spacing: 0.55px;
+    position: absolute;
+}
+
+.contactImage{
+    position: absolute;
+    left: 48%;
+    margin-top: 8%;
+    // width: 44%;
+    // height: 54%;
+    width: 594px;
+    height: 400px;
+}
+
+
+//Media
+
+@media only screen and (max-width : 1200px){
+    .contactImage{
+        width: 475px;
+        height: 320px;
+        margin-top: 16%;
+        left: 52%;
+    }
+}
+
+@media only screen and (max-width : 1020px) {
+    .contactImage{
+        display: none;
+    }
+    .blackTitle{
+        margin-left: 300px;
+    }
+    .orangeTitle{
+        margin-left: 300px;
+    }
+}
+
+@media only screen and (max-width : 900px) {
+    .contactLeft{
+        margin: auto;
+    }
+    .blackTitle{
+        font-size: 36px;
+        margin-left: 190px;
+    }
+    .orangeTitle{
+        font-size: 36px;
+        margin-top: 160px;
+        margin-left: 190px;
+    }
+}
+
+@media only screen and (max-width : 720px) {
+    .contactLeft{
+        margin: auto;
+    }
+    .blackTitle{
+        font-size: 34px;
+        margin-left: 190px;
+    }
+    .orangeTitle{
+        font-size: 34px;
+        margin-top: 160px;
+        margin-left: 190px;
+    }
+}
+
+@media only screen and (max-width : 580px) {
+    .contactLeft{
+        margin: auto;
+    }
+    .blackTitle{
+        font-size: 34px;
+        margin-left: 50px;
+    }
+    .orangeTitle{
+        font-size: 34px;
+        margin-top: 160px;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width : 460px) {
+    .contactLeft{
+        font-size: 30px;
+    }
+    .blackTitle{
+        font-size: 30px;
+        margin-left: 50px;
+        width: 80%;
+    }
+    .orangeTitle{
+        font-size: 30px;
+        margin-top: 160px;
+        margin-left: 50px;
+        width: 80%;
+
+    }
+}
+
+@media only screen and (max-width : 365px) {
+    .contactLeft{
+        margin: auto;
+    }
+    .blackTitle{
+        // font-size: 25px;
+        margin-left: 0px;
+        font-size: 28px;
+        width: 100%;
+        padding-left: 40px;
+    }
+
+    .orangeTitle{
+        width: 100%;
+        font-size: 28px;
+        margin-top: 150px;
+        margin-left: 0;
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width : 300px) {
+    .blackTitle{
+        font-size: 25px;
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    .orangeTitle{
+        width: 100%;
+        font-size: 25px;
+        margin-top: 150px;
+        margin-left: 0;
+        padding-left: 10%;
+    }
+}

@@ -1,0 +1,148 @@
+@import "../../Stylesheets/SCSS/Partials/colors";
+@import "../../Stylesheets/SCSS/Partials/fonts";
+
+#About{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aboutTitle{
+    font-size: 39px;
+    font-family: $font-titulo;
+    width: 40%;
+    height: 15%;
+    letter-spacing: 0.55px;
+    margin-left: 300px;
+}
+
+.aboutTitleBlack{
+    color: $tertiary-color;
+}
+
+.aboutTitleOrange{
+    color: $secondary-color;
+}
+
+.aboutParra{
+    color: $tertiary-color;
+    margin-left: 300px;
+    margin-top: 44px;
+    // width: 768px;
+    width: 51%;
+    font-size: 16px;
+    font-family: $font-parrafo;
+    letter-spacing: 0.22px;
+}
+
+.rectangle{
+    background-color: $secondary-color;
+    // width: 40px;
+    width: 2%;
+    height: 50%;
+    // height: 385px;
+    margin: 0px;
+    position: absolute;
+}
+
+@media only screen and (max-width : 1020px) {
+    .aboutTitle{
+        font-size: 34px;
+        width: 40%;
+        margin-left: 220px;
+    }
+    .aboutParra{
+        margin-left: 220px;
+        width: 60%;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    }
+
+@media only screen and (max-width : 900px) {
+    .aboutTitle{
+        font-size: 34px;
+        width: 50%;
+        margin-left: 130px
+    }
+    .aboutParra{
+        margin-left: 130px;
+        width: 70%;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    }
+
+@media only screen and (max-width : 720px) {
+    .aboutTitle{
+        font-size: 30px;
+        width: 56%;
+        margin-left: 100px;
+        height: 10%;
+    }
+    .aboutParra{
+        margin-left: 100px;
+        width: 70%;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    .rectangle{
+        height: 60%;
+    }
+    }
+
+@media only screen and (max-width : 580px) {
+    .aboutTitle{
+        font-size: 26px;
+        width: 61%;
+        margin-left: 100px;
+        height: 10%;
+    }
+    .aboutParra{
+        margin-left: 100px;
+        width: 70%;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+    .rectangle{
+        height: 60%;
+    }
+    }
+
+@media only screen and (max-width : 460px) {
+    .aboutTitle{
+        font-size: 22px;
+        width: 67%;
+        margin-left: 60px;
+        height: 8%;
+    }
+    .aboutParra{
+        margin-left: 60px;
+        width: 70%;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+    .rectangle{
+        height: 64%;
+    }
+    }
+
+@media only screen and (max-width : 365px) {
+    .aboutTitle{
+        font-size: 19px;
+        width: 71%;
+        margin-left: 40px
+    }
+    .aboutParra{
+        margin-left: 40px;
+        width: 80%;
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    .rectangle{
+        height: 60%;
+    }
+    }
