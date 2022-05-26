@@ -8,6 +8,8 @@ import Contact from './Components/Contact5/Contact';
 import Footer from './Components/Footer6/Footer';
 import React from 'react';
 
+import './Stylesheets/CSS/index.css'
+
 
 
 function App() {

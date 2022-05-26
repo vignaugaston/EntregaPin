@@ -109,15 +109,13 @@ function Formu() {
                     <div>
                         <input
                             className="imputClass"
-                            type="tel"
+                            type="number"
                             id="phone"
                             name="phone"
                             placeholder='Phone'
                             value={formValues.phone}
                             onChange={handleChange}
                             // required
-                            pattern="[0-9]" 
-                            // minLength={6}
                             />
                     </div>
                     <p className='errorMessage'>{formErrors.phone}</p>
@@ -140,7 +138,7 @@ function Formu() {
                 </form>
             {Object.keys(formErrors).length === 0 && formSubmit ? (
                 <div className="alertMessage">¡Mensaje enviado!</div>)
-                : (<pre>{JSON.stringify(formValues, undefined, 2)}</pre>)
+                : (<pre className='preJson'>{JSON.stringify(formValues, undefined, 2)}</pre>)
             }
             </div>
 

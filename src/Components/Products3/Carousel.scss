@@ -9,10 +9,6 @@
     align-self: center;
 }
 
-// .carousel-control-prev-icon{
-//     color: red;
-// }
-
 .imageCarousel{
     width: 100%;
     height: 100%;
@@ -22,7 +18,7 @@
 .containerCarousel{
     // width: 470px;
     // height: 380px;
-    margin: 252px 173px 0px 690px;
+    margin: 252px 174px 0px 690px;
     position: absolute;
 }
 
@@ -72,11 +68,13 @@
         margin: auto
     }
     .containerCarousel{
-        padding: 5px 67px 0 0;
+        padding: 0px 0px 0px 0px;
+        margin-right: 240px;
+        margin-top: 207px;
     }
     .textCarousel{
         width: 350px;
-        height: 200px;
+        height: 250px;
         // margin: 257px 340px 0px 690px;
     }
     .h4Carousel{
@@ -98,7 +96,7 @@
         // margin-left: auto;
     }
     .containerCarousel{
-        margin: 336px 623px 0px 690px;
+        margin: 336px 690px 0px 690px;
 
     }
     .textCarousel{
@@ -106,7 +104,7 @@
         height: 150px;
     }
     .h4Carousel{
-        margin-top: 30px;
+        margin-top: 10px;
         margin-left: 70px;
     }
     .h3Carousel{
@@ -118,6 +116,7 @@
         margin-right: 60px;
         margin-left: 70px;
         margin-top: 10px;
+        width: 70%;
     }
 }
 
@@ -140,7 +139,7 @@
         height: 40vh;
     }
     .h4Carousel{
-        margin-top: 30px;
+        margin-top: 0px;
         margin-left: 60px;
     }
     .h3Carousel{
@@ -165,7 +164,7 @@
         margin-left: 50px;
     }
     .h4Carousel{
-        margin-top: 30px;
+        margin-top: 0px;
         margin-left: 50px;
     }
     .textCarousel{
@@ -179,26 +178,27 @@
         font-size: 13px;
         margin-right: 40px;
         margin-left: 35px;
+        width: 75%;
     }
     .h3Carousel{
         font-size: 30px;
         margin-left: 35px;
     }
     .h4Carousel{
-        margin-top: 2px;
+        margin-top: 0px;
         margin-left: 35px;
         font-size: 14px;
     }
     .textCarousel{
         width: 60vw;
-        height: 30vh;
+        height: 35vh;
     }
 }
 
 @media only screen and (max-width : 385px){
     .textCarousel{
         width: 70vw;
-        height: 35vh;
+        height: 38vh;
     }
 }
 

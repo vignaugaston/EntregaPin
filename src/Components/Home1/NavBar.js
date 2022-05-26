@@ -14,7 +14,7 @@ const NavBar = () => {
                 <Navigation/>
             </nav>
         </header>
-        <hr></hr>
+        <hr className='hrNav'></hr>
       </div>
   )
 }

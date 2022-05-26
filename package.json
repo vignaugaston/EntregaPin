@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass-compile": "sass src/Components/Home1/HomeCarousel.scss src/Components/Home1/HomeCarousel.css",
+    "sass-compile": "sass src/Stylesheets/SCSS/index.scss src/Stylesheets/CSS/index.css",
     "sass-watch": "sass src/Components/Home1/HomeCarousel.scss src/Components/Home1/HomeCarousel.css"
   },
   "eslintConfig": {
