@@ -19,20 +19,31 @@
     position: relative;
 }
 
+.containerCarousel{
+    // width: 470px;
+    // height: 380px;
+    margin: 252px 173px 0px 690px;
+    position: absolute;
+}
+
 .textCarousel{
     background-color: $secondary-color;
     color: $white-color;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
     width: 450px;
     height: 300px;
-    margin: 252px 174px 0px 690px;
-    position: absolute;
+    // margin: 252px 174px 0px 690px;
+    // position: absolute;
 }
 
 .h4Carousel{
     font-size: 16px;
     font-family: $font-nav;
     letter-spacing: 0.22px;
-    margin: 68px 0px 0px 50px;
+    margin: 0px 0px 0px 50px;
 }
 
 .h3Carousel{
@@ -49,10 +60,6 @@
     margin: 20px 0px 0px 50px;
 }
 
-.carousel-control-next .carousel-control-next-icon .visually-hidden{
-    color: rebeccapurple;
-}
-
 
 
 
@@ -64,10 +71,13 @@
         align-items: center;
         margin: auto
     }
+    .containerCarousel{
+        padding: 5px 67px 0 0;
+    }
     .textCarousel{
         width: 350px;
         height: 200px;
-        margin: 257px 240px 0px 690px;
+        // margin: 257px 340px 0px 690px;
     }
     .h4Carousel{
         margin-top: 30px;
@@ -87,10 +97,13 @@
         padding-bottom: 150px;
         // margin-left: auto;
     }
+    .containerCarousel{
+        margin: 336px 623px 0px 690px;
+
+    }
     .textCarousel{
         width: 600px;
         height: 150px;
-        margin: 343px 690px 0px 690px;
     }
     .h4Carousel{
         margin-top: 30px;
@@ -112,26 +125,32 @@
     .imageCarousel{
         display: none;
     }
-    .textCarousel{
-        width: 70%;
-        height: 40%;
-        top: 1350px;
+    .containerCarousel{
+        display: flex;
         align-items: center;
         justify-content: center;
-        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    .textCarousel{
+        width: 55vw;
+        height: 40vh;
     }
     .h4Carousel{
         margin-top: 30px;
-        margin-left: 70px;
+        margin-left: 60px;
     }
     .h3Carousel{
         font-size: 38px;
-        margin-left: 70px;
+        margin-left: 60px;
     }
     .parraCarousel{
         font-size: 18px;
         margin-right: 60px;
-        margin-left: 70px;
+        margin-left: 60px;
     }
 }
 
@@ -139,15 +158,19 @@
     .parraCarousel{
         font-size: 16px;
         margin-right: 40px;
-        margin-left: 70px;
+        margin-left: 50px;
     }
     .h3Carousel{
         font-size: 35px;
-        margin-left: 70px;
+        margin-left: 50px;
     }
     .h4Carousel{
         margin-top: 30px;
-        margin-left: 70px;
+        margin-left: 50px;
+    }
+    .textCarousel{
+        width: 60vw;
+        height: 38vh;
     }
 }
 
@@ -155,27 +178,27 @@
     .parraCarousel{
         font-size: 13px;
         margin-right: 40px;
-        margin-left: 70px;
+        margin-left: 35px;
     }
     .h3Carousel{
         font-size: 30px;
-        margin-left: 70px;
+        margin-left: 35px;
     }
     .h4Carousel{
         margin-top: 2px;
-        margin-left: 70px;
+        margin-left: 35px;
         font-size: 14px;
     }
     .textCarousel{
-        top: 190%;
-        position: absolute;
+        width: 60vw;
+        height: 30vh;
     }
 }
 
 @media only screen and (max-width : 385px){
     .textCarousel{
-        top: 180%;
-        position: absolute;
+        width: 70vw;
+        height: 35vh;
     }
 }
 
@@ -194,14 +217,12 @@
         margin-left: 30px;
         font-size: 13px;
     }
-    .textCarousel{
-        top:165%
-    }
 }
 
 @media only screen and (max-width : 300px) {
     .textCarousel{
-        top: 175%;
+        width: 75vw;
+        height: 35vh;
     }
 }
 
