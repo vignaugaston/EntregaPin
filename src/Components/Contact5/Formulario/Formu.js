@@ -29,7 +29,7 @@ function Formu() {
         // http://127.0.0.1:8000/api/contacto
 
         axios({
-            url: 'http://jsonplaceholder.typicode.com/posts',
+            url: 'http://127.0.0.1:8000/api/contacto',
             method: 'POST',
             data: formValues
           })
@@ -136,7 +136,8 @@ function Formu() {
                         type="submit"
                         >Send</button>
                 </form>
-            {Object.keys(formErrors).length === 0 && formSubmit ? (
+
+              {Object.keys(formErrors).length === 0 && formSubmit ? (
                 <div className="alertMessage">¡Mensaje enviado!</div>)
                 : (<pre className='preJson'>{JSON.stringify(formValues, undefined, 2)}</pre>)
             }

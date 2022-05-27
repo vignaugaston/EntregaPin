@@ -5,7 +5,6 @@ import slider1 from '../../Media/slider1.png';
 import carretera from '../../Media/carretera.jpg';
 import montaNevadas from '../../Media/montaNevadas.jpg';
 
-import './HomeCarousel.css';
 
 
 
