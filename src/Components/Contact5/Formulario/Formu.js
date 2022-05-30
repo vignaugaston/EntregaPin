@@ -29,7 +29,7 @@ function Formu() {
         // http://127.0.0.1:8000/api/contacto
 
         axios({
-            url: 'http://127.0.0.1:8000/api/contacto',
+            url: 'https://gentle-ravine-18559.herokuapp.com/api/contacto',
             method: 'POST',
             data: formValues
           })
