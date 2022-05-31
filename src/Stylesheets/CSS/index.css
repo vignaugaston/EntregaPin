@@ -6173,6 +6173,18 @@ textarea.form-control-lg {
   }
 }
 
+@media only screen and (max-width : 280px) {
+  .carousel-control-next-icon{
+    margin-top: 190px;
+    margin-right: 100px;
+    padding: 0;
+  }
+  .carousel-control-prev-icon{
+  margin-top: 190px;
+  margin-left: 100px;
+  }
+}
+
 
 
 

@@ -94,3 +94,17 @@ $accordion-icon-active-color: $secondary-color;
         font-size: 13px;
     }
 }
+
+@media only screen and (max-width : 240px) {
+    .divAccordion{
+        margin-top: 4vh;
+    }
+    .accordion-title{
+        margin: 1px 1px;
+        font-size: 12px;
+    }
+    .accordion-body{
+        margin: 1px 1px;
+        font-size: 11px;
+    }
+}

@@ -121,7 +121,7 @@
     }
     .homeButton{
         width: 12%;
-        height: 5vh;
+        height: 6vh;
         margin-top: 490px;
 
     }
@@ -150,7 +150,7 @@
     width: 60%;
     }
     .homeButton{
-        height: 5vh;
+        height: 6vh;
         width: 15%;
     }
     }
@@ -187,38 +187,38 @@
     .homeTitle{
         margin: 230px 0 0 0;
         font-size: 38px;
-        width: 70%;
+        width: 72%;
     }
     }
     
-@media only screen and (max-width : 460px) {
+@media only screen and (max-width : 500px) {
     .homeTitle{
         font-size: 36px;
-        margin: 130px 0 0 0;
+        margin: 210px 0 0 0;
         width: 63%;
     }
     .contHome{
         padding-left: 40px;
     }
     .homeParra{
-        margin: 340px 0 0 0;
+        margin: 400px 0 0 0;
         font-size: 14px;
         width: 60%;
     }
     .homeButton{
-        margin: 440px 0 0 0;
+        margin: 490px 0 0 0;
         width: 30%;
     }
     }
     
-@media only screen and (max-width : 365px) {
+@media only screen and (max-width : 375px) {
     .homeTitle{
         font-size: 30px;
         width: 60%;
-        margin: 130px 0 0 0;
+        margin: 180px 0 0 0;
     }
     .homeParra{
-        margin: 300px 0 0 0;
+        margin: 350px 0 0 0;
     }
     .homeButton{
         font-size: 14px;
@@ -232,8 +232,31 @@
 
 @media only screen and (max-width : 300px) {
     .homeTitle{
-        font-size: 26px;
-        margin: 130px 0 0 0;
-        width: 55%;
+        font-size: 24px;
+        margin: 200px 0 0 0;
+        width: 75%;
+    }
+    .homeButton{
+        margin: 460px 0 0 0;
+        width: 50%;
+    }
+    .homeParra{
+        width: 75%;
+        margin: 360px 0 0 0;
+    }
+    }
+
+@media only screen and (max-width : 240px) {
+    .homeTitle{
+        font-size: 22px;
+        margin: 200px 0 0 0;
+        width: 70%;
+    }
+    .homeParra{
+        margin: 340px 0 0 0;
+    }
+    .homeButton{
+        width: 50%;
+        margin: 470px 0 0 0;
     }
     }

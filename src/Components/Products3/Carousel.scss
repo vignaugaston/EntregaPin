@@ -226,4 +226,20 @@
     }
 }
 
+@media only screen and (max-width : 240px) {
+    .textCarousel{
+        width: 85vw;
+        height: 35vh;
+    }
+    .h3Carousel{
+        font-size: 20px;
+    }
+    .h4Carousel{
+        font-size: 11px;
+    }
+    .parraCarousel{
+        font-size: 10px;
+    }
+}
+
 
