@@ -27,6 +27,7 @@ function Formu() {
 
         // http://jsonplaceholder.typicode.com/posts
         // http://127.0.0.1:8000/api/contacto
+        // https://gentle-ravine-18559.herokuapp.com/api/contacto
 
         axios({
             url: 'https://gentle-ravine-18559.herokuapp.com/api/contacto',
