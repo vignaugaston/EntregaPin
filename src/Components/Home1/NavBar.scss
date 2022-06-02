@@ -23,11 +23,6 @@ header{
     margin: 25px 90px 0 0;
     display: flex;
     justify-content: end;
-    
-    
-    // //NUEVO
-    // margin: 25px 70px 0 0;
-    // position: absolute;
 }
 
 .liNav{
@@ -35,11 +30,6 @@ header{
     color: $white-color;
     margin: 35px;
    scroll-behavior: smooth;
-
-   //NUEVO
-//    position: absolute;
-//    color: red;
-
 }
 
 .liNav:hover{
@@ -50,8 +40,6 @@ header{
     top: 20px;
     position: absolute;
     left: 100px;
-    // width: 130px;
-    // height: 30px;
 }
 
 .hrNav{
@@ -164,7 +152,6 @@ header{
         position: absolute;
         left: 45px;
         margin-top: 0px;
-        // width: 140px;
     }
     }
 
