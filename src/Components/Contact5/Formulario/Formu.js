@@ -30,7 +30,7 @@ function Formu() {
         // https://gentle-ravine-18559.herokuapp.com/api/contacto
 
         axios({
-            url: 'https://gentle-ravine-18559.herokuapp.com/api/contacto',
+            url: "https://gentle-ravine-18559.herokuapp.com/api/contacto",
             method: 'POST',
             data: formValues
           })
@@ -40,7 +40,8 @@ function Formu() {
             setFormValues({name: "", email: "", phone: "", message: ""})
           })
           .catch( error => 
-            console.log(error))
+            console.log(error.response.data)
+            )
         };
     
       useEffect(() => {
